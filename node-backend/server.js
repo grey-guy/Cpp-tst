@@ -3,7 +3,7 @@ const cors = require('cors');
 const http = require('http');
 
 const app = express();
-const config = require('es1int-config')
+const config = require('es1int-configer')
 const PORT = process.env.PORT || 3000;
 const GO_BACKEND_URL = process.env.GO_BACKEND_URL || 'http://localhost:8080';
 
